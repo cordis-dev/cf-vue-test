@@ -1,0 +1,20 @@
+{
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2015
+    },
+    "parser": "vue-eslint-parser",
+    "plugins": [
+        "import",
+        "vue"
+    ],
+	"extends":[
+		"plugin:vue/recommended"
+	],
+    "settings": {
+        "import/extensions": [
+            ".js",
+            ".vue"
+        ]
+    }
+}
