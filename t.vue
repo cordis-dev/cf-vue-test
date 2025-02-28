@@ -6,3 +6,13 @@
   <!-- ✗ BAD -->
   <div>{{text}}</div>
 </template>
+
+<script>
+defineProps({
+    title: {
+        type: String,
+        default: "Test Page"
+    }
+})
+debugger;
+</script>
